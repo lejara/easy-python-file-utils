@@ -7,5 +7,8 @@ def getfilename(file):
     return filename
 
 
+def getfilesize(file):
+    filesize = os.path.getsize(file)
+    return filesize
 
 
