@@ -1,12 +1,11 @@
 language: python
-
 sudo: false
 
 python:
-    - 3.6
+    - "3.6"
 	
 install:
-pip install -U pytest
-
+- pip install -U pytest
+ 
 script: 
-pytest
+- pytest
