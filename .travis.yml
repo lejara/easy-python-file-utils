@@ -5,7 +5,7 @@ python:
     - "3.6"
 	
 install:
-- pip install -U pytest
- 
-script: 
-- pytest
+  - pip install -U pytest
+
+script:
+  - pytest 
