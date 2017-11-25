@@ -10,5 +10,3 @@ def getfilename(file):
 def getfilesize(file):
     filesize = os.path.getsize(file)
     return filesize
-
-
